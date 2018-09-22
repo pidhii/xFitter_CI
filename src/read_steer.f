@@ -2038,6 +2038,22 @@ C==========================OTHER MODELS
           CIindex = 119
           CIname = '\eta'
 
+        ELSEIF(CITYPE.EQ.'~RR') THEN
+          CIINDEX = 120
+          CINAME = '\eta'
+
+        ELSEIF(CITYPE.EQ.'~LL') THEN
+          CIINDEX = 121
+          CINAME = '\eta'
+
+        ELSEIF(CITYPE.EQ.'~LR') THEN
+          CIINDEX = 122
+          CINAME = '\eta'
+
+        ELSEIF(CITYPE.EQ.'~RL') THEN
+          CIINDEX = 123
+          CINAME = '\eta'
+        
         elseif (CItype.eq.'Extra Dimensions') then
           CIindex = 201
           CIname = '\eta'

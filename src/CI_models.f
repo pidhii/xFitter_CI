@@ -359,7 +359,54 @@ C  RR
         par(6) =  0
         par(7) =  0
         par(8) =  CIvarval
+C
+C ~RR
+C 
+      ELSEIF (CIINDEX.EQ.120) THEN
+        PAR(1) = 0
+        PAR(2) = 0
+        PAR(3) = 0
+        PAR(4) = -CIVARVAL 
+        PAR(5) = 0
+        PAR(6) = 0
+        PAR(7) = 0
+        PAR(8) = CIVARVAL
+C
+C ~LL
+C 
+      ELSEIF (CIINDEX.EQ.121) THEN
+        PAR(1) = -CIVARVAL
+        PAR(2) = 0
+        PAR(3) = 0
+        PAR(4) = 0
+        PAR(5) = CIVARVAL
+        PAR(6) = 0
+        PAR(7) = 0
+        PAR(8) = 0
 
+C ~LR
+C 
+      ELSEIF (CIINDEX.EQ.122) THEN
+        PAR(1) = 0
+        PAR(2) = -CIVARVAL
+        PAR(3) = 0
+        PAR(4) = 0
+        PAR(5) = 0
+        PAR(6) = CIVARVAL
+        PAR(7) = 0
+        PAR(8) = 0
+
+C ~RL
+C 
+      ELSEIF (CIindex.EQ.123) THEN
+        PAR(1) = 0
+        PAR(2) = 0
+        PAR(3) = -CIVARVAL
+        PAR(4) = 0
+        PAR(5) = 0
+        PAR(6) = 0
+        PAR(7) = CIVARVAL
+        PAR(8) = 0
 C
 C
 C  6 parameter fit
